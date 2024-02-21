@@ -1,0 +1,39 @@
+:root {
+    --preto: #000000;
+    --cinza: #CCCCCC;
+    --verde-limao: #DAFF01;
+    --lilas: #9353FF;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.divs-novidades {
+    width: 325px;
+}
+
+.verde-limao {
+    color: var(--verde-limao);
+}
+
+.botao-lilas {
+    background-color: var(--lilas);
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+    .div-novidades {
+        width: 696px;
+    }
+}
